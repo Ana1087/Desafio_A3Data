@@ -1,11 +1,14 @@
 # Desafio_A3Data
+
 Análise de uma base de dados com dados dos clientes e perfil de compra de uma empresa de telecomunicações. O objetivo deste teste é conseguir explorar e demonstrar habilidades técnicas e de negócio, trazendo insights acionáveis para o negócio.
 
 **Definição do problema**
+
 Objetivo: Reduzir o churn (taxa de cancelamento) dos clientes de uma empresa de telecomunicações.
 Motivação: O custo elevado de setup (instalação) torna a retenção de clientes crucial para a sustentabilidade financeira da empresa.
 
 **Roadmap**
+
 1. Análise Exploratória de Dados (EDA)
 Coleta e compreensão dos dados;
 Limpeza e pré-processamento dos dados;
@@ -22,6 +25,7 @@ Identificação de ações estratégicas para reduzir o churn;
 Estimativa do impacto das ações sugeridas.
 
 **Metodologia CRISP-DM (Cross Industry Standard Process for Data Mining)**
+
 1. Compreensão do Negócio (Business Understanding)
 2. Compreensão dos Dados (Data Understanding)
 3. Preparação dos Dados (Data Preparation)
@@ -76,6 +80,6 @@ TotalCharges (Cobrança Total) - Valor total cobrado ao cliente até o momento
 Churn (Cancelamento) - Indica se o cliente cancelou o serviço (Sim, Não)
 
 **Processamento e Limpeza dos Dados**
-A base de dados dispõe de 7043 linhas, 21 colunas, 0 dados duplicados, 11 valores ausentes na coluna TotalCharges (Cobrança totais). Devido a baixa contagem de valores ausentes, optou-se pela exclusão dos mesmos.
-Após a exclusão dos valores ausentes, a base de dados tratada dispõe de 7032 observações e 21 colunas.
+
+A base de dados possui 7043 linhas e 21 colunas. Não foram identificados dados duplicados, porém há 11 valores ausentes na coluna TotalCharges (Cobrança totais). Devido à baixa quantidade de valores faltantes, optou-se por excluí-los. Após essa exclusão, a base de dados tratada contém 7032 observações e 21 colunas.
 
